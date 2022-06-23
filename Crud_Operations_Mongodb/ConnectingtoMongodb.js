@@ -86,7 +86,7 @@ const courses = await Course
 // .and([])  // the 84,85,86 lines of code tells u about the logical or operators  
 .limit(10)
 .sort({name:1}) // 1 indicates asending order sorting of the documents and -1 is for desending 
-.select({name:1, tags:1})     // to select the specific property which we want to return 
+.select({name:1, tags:1})     // to select the specific property which we really want to return 
 
 console.log(courses);
 
